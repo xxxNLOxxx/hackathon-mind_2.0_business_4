@@ -237,3 +237,9 @@ D:\projects\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\projects\obj\Debug\net9.0\Hackaton.csproj.Up2Date
 D:\projects\obj\Debug\net9.0\Hackaton.genruntimeconfig.cache
 D:\projects\obj\Debug\net9.0\ref\Hackaton.dll
+D:\projects\bin\Debug\net9.0\libman.json
+D:\projects\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\projects\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\projects\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\projects\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\projects\obj\Debug\net9.0\Hackaton.MvcApplicationPartsAssemblyInfo.cs

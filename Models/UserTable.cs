@@ -36,4 +36,7 @@ public partial class UserTable
     public virtual ICollection<Participation> Participations { get; set; } = new List<Participation>();
 
     public virtual ICollection<PointsHistory> PointsHistories { get; set; } = new List<PointsHistory>();
+
+    // для системы призов
+    public ICollection<Event> OrganizedEvents { get; set; }
 }

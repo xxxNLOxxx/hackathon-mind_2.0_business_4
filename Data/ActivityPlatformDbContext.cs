@@ -16,6 +16,16 @@ public partial class ActivityPlatformDbContext : DbContext
     {
     }
 
+    #region Andrew_dev2
+    // код
+    public DbSet<UserTable> Users { get; set; }
+    public DbSet<Event> Events { get; set; }
+    public DbSet<Prize> Prizes { get; set; }
+    public DbSet<Participation> Participations { get; set; }
+
+    
+    #endregion 
+
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<EventReward> EventRewards { get; set; }
@@ -23,8 +33,6 @@ public partial class ActivityPlatformDbContext : DbContext
     public virtual DbSet<EventTable> EventTables { get; set; }
 
     public virtual DbSet<OrganizerReview> OrganizerReviews { get; set; }
-
-    public virtual DbSet<Participation> Participations { get; set; }
 
     public virtual DbSet<PointsHistory> PointsHistories { get; set; }
 
@@ -39,11 +47,25 @@ public partial class ActivityPlatformDbContext : DbContext
     public virtual DbSet<UserTable> UserTables { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=activity_platform_db;Username=postgres;Password=1");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        ///
+        // Связь Event -> Organizer (User)
+        modelBuilder.Entity<Event>()
+            .HasOne(e => e.Organizer)
+            .WithMany(u => u.OrganizedEvents)      
+            .HasForeignKey(e => e.OrganizerId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Связь Prize -> Event
+        modelBuilder.Entity<Prize>()
+            .HasOne(p => p.Event)
+            .WithMany(e => e.Prizes)
+            .HasForeignKey(p => p.EventId)
+            .OnDelete(DeleteBehavior.Cascade);
+        ///
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.IdCategory).HasName("categories_pkey");
