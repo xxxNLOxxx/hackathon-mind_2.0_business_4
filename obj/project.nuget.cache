@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "y9gVju41UTw=",
   "success": true,
   "projectFilePath": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
@@ -55,8 +56,11 @@
     "C:\\Users\\Анастасия\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
 =======
   "dgSpecHash": "0XQ/veNJMEA=",
+=======
+  "dgSpecHash": "fx8NHEsN5Ww=",
+>>>>>>> Исправлено подключение к БД
   "success": true,
-  "projectFilePath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj",
+  "projectFilePath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Максим\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

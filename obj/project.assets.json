@@ -3296,6 +3296,7 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
       "projectName": "Hackaton",
       "projectPath": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
@@ -3303,11 +3304,18 @@
       "outputPath": "D:\\hackathon-mind_2.0_business_4\\obj\\",
 =======
       "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
+>>>>>>> Исправлено подключение к БД
       "projectName": "Hackaton",
-      "projectPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj",
+      "projectPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
       "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\obj\\",
 >>>>>>> Создан ParticipationController.cs
+=======
+      "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\obj\\",
+>>>>>>> Исправлено подключение к БД
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

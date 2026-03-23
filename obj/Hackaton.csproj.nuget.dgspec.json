@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj": {}
   },
   "projects": {
@@ -15,17 +16,24 @@
         "outputPath": "D:\\hackathon-mind_2.0_business_4\\obj\\",
 =======
     "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj": {}
+=======
+    "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj": {}
+>>>>>>> Исправлено подключение к БД
   },
   "projects": {
-    "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj": {
+    "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj",
+        "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
         "projectName": "Hackaton",
-        "projectPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj",
+        "projectPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
         "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
+<<<<<<< HEAD
         "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\obj\\",
 >>>>>>> Создан ParticipationController.cs
+=======
+        "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\obj\\",
+>>>>>>> Исправлено подключение к БД
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
