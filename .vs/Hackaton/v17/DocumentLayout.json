@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\data\\activityplatformdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:data\\activityplatformdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\controllers\\participationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\participationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\models\\pointshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:models\\pointshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\models\\eventtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:models\\eventtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\desktop\\activityplatform\\hackathon-mind_2.0_business_4-nastya\\models\\organizerreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:models\\organizerreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PointsHistory.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\PointsHistory.cs",
+              "RelativeDocumentMoniker": "Models\\PointsHistory.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\PointsHistory.cs",
+              "RelativeToolTip": "Models\\PointsHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:35:14.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventTable.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\EventTable.cs",
+              "RelativeDocumentMoniker": "Models\\EventTable.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\EventTable.cs",
+              "RelativeToolTip": "Models\\EventTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:17:53.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RatingController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "Controllers\\RatingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:14:32.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:14:30.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:14:27.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrganizerReview.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\OrganizerReview.cs",
+              "RelativeDocumentMoniker": "Models\\OrganizerReview.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\OrganizerReview.cs",
+              "RelativeToolTip": "Models\\OrganizerReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:14:24.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Participation.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\Participation.cs",
+              "RelativeDocumentMoniker": "Models\\Participation.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Models\\Participation.cs",
+              "RelativeToolTip": "Models\\Participation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:58:36.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParticipationController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\ParticipationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParticipationController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Controllers\\ParticipationController.cs",
+              "RelativeToolTip": "Controllers\\ParticipationController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwDQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:28:23.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:58:37.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivityPlatformDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Data\\ActivityPlatformDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ActivityPlatformDbContext.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Data\\ActivityPlatformDbContext.cs",
+              "RelativeToolTip": "Data\\ActivityPlatformDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:57:08.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

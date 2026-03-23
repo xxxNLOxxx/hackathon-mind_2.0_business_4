@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 {
   "Version": 1,
   "ManifestType": "Build",
   "Endpoints": []
 }
+=======
+{"Version":1,"ManifestType":"Build","Endpoints":[]}
+>>>>>>> Создан ParticipationController.cs

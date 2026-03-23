@@ -11,9 +11,10 @@ using System.Threading.Tasks;
 namespace Hackaton.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
-    public class EventsController : ControllerBase
-    {
+[ApiController]
+[Route("events")]
+public class EventsController : ControllerBase
+{
         private readonly ActivityPlatformDbContext _context;
 
         public EventsController(ActivityPlatformDbContext context)

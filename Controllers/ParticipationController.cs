@@ -117,3 +117,4 @@ namespace Hackaton.Controllers
         public int IdEvent { get; set; }
     }
 }
+       
