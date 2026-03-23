@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "HackathonApp.Controllers.TestController",
+    "Method": "Get",
+    "RelativePath": "test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
