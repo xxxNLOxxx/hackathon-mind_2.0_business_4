@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// DB как заглушка пока
-// builder.Services.AddDbContext<AppDbContext>(options =>
-//     options.UseNpgsql("Host=localhost;Database=hackathon;Username=postgres;Password=1234"));
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ActivityPlatformDbContext>(options =>
+    options.UseNpgsql(connectionString));
 
 builder.Services.AddControllers();
 
