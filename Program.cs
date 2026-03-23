@@ -1,4 +1,4 @@
-using HackathonApp.Data;
+using Hackaton.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

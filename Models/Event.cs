@@ -25,7 +25,7 @@ namespace Hackaton.Models
         public int OrganizerId { get; set; }          // внешний ключ на User
 
         [ForeignKey(nameof(OrganizerId))]
-        public User Organizer { get; set; }           // навигационное свойство
+        public UserTable Organizer { get; set; }           // навигационное свойство
 
         public ICollection<Prize> Prizes { get; set; } = new List<Prize>();
         public ICollection<Participation> Participations { get; set; } = new List<Participation>();
