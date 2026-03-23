@@ -46,8 +46,7 @@ public partial class ActivityPlatformDbContext : DbContext
 
     public virtual DbSet<UserTable> UserTables { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=activity_platform_db;Username=postgres;Password=1");
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

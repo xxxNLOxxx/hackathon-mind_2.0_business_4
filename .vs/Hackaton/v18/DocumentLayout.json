@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\data\\activityplatformdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:data\\activityplatformdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88761EF9-AD39-44CB-A9E4-53305AD79158}|Hackaton.csproj|d:\\projects\\models\\participation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\projects\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\projects\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T14:35:59.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\projects\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -87,50 +70,24 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T14:35:28.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T14:35:28.347Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\projects\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\projects\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:53:04.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Participation.cs",
-              "DocumentMoniker": "D:\\projects\\Models\\Participation.cs",
-              "RelativeDocumentMoniker": "Models\\Participation.cs",
-              "ToolTip": "D:\\projects\\Models\\Participation.cs",
-              "RelativeToolTip": "Models\\Participation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:36:52.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "EventsController.cs",
               "DocumentMoniker": "D:\\projects\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
               "ToolTip": "D:\\projects\\Controllers\\EventsController.cs",
               "RelativeToolTip": "Controllers\\EventsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T13:33:20.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "UserTable.cs",
               "DocumentMoniker": "D:\\projects\\Models\\UserTable.cs",
               "RelativeDocumentMoniker": "Models\\UserTable.cs",
@@ -142,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "EventDto.cs",
               "DocumentMoniker": "D:\\projects\\Models\\DTO\\EventDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\EventDto.cs",
@@ -154,7 +111,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "ActivityPlatformDbContext.cs",
+              "DocumentMoniker": "D:\\projects\\Data\\ActivityPlatformDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ActivityPlatformDbContext.cs",
+              "ToolTip": "D:\\projects\\Data\\ActivityPlatformDbContext.cs",
+              "RelativeToolTip": "Data\\ActivityPlatformDbContext.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:23:33.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Participation.cs",
+              "DocumentMoniker": "D:\\projects\\Models\\Participation.cs",
+              "RelativeDocumentMoniker": "Models\\Participation.cs",
+              "ToolTip": "D:\\projects\\Models\\Participation.cs",
+              "RelativeToolTip": "Models\\Participation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:36:52.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\projects\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\projects\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T14:35:59.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EventCreateDto.cs",
               "DocumentMoniker": "D:\\projects\\Models\\DTO\\EventCreateDto.cs",
               "RelativeDocumentMoniker": "Models\\DTO\\EventCreateDto.cs",
@@ -163,18 +156,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T13:31:25.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ActivityPlatformDbContext.cs",
-              "DocumentMoniker": "D:\\projects\\Data\\ActivityPlatformDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ActivityPlatformDbContext.cs",
-              "ToolTip": "D:\\projects\\Data\\ActivityPlatformDbContext.cs",
-              "RelativeToolTip": "Data\\ActivityPlatformDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:23:33.73Z"
             }
           ]
         }
