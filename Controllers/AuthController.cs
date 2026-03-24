@@ -17,7 +17,7 @@ public class AuthController : ControllerBase
     }
 
     public record RegisterUserRequest(string? Name, string? Role);
-    public record LoginRequest(string Email, string Password);
+    public record LoginRequest(string email, string password);
     public record UserResponse(int Id, string Name, string Role);
 
     [HttpPost("register")]
@@ -52,18 +52,16 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<ActionResult<UserResponse>> Login([FromBody] LoginRequest request)
     {
-        // Ищем пользователя по email (используем email как логин)
         var user = await _context.UserTables
             .Include(u => u.IdRoleNavigation)
-            .FirstOrDefaultAsync(u => u.Email == request.Email);
+            .FirstOrDefaultAsync(u => u.Email == request.email);
 
         if (user == null)
         {
             return Unauthorized(new { message = "Пользователь не найден" });
         }
 
-        // Временно: сравниваем пароль как есть (потом добавить хэширование)
-        if (user.Pwd != request.Password)
+        if (user.Pwd != request.password)
         {
             return Unauthorized(new { message = "Неверный пароль" });
         }

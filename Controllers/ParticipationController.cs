@@ -7,7 +7,7 @@ using System;
 namespace Hackaton.Controllers
 {
     [ApiController]
-    [Route("participation")]
+    [Route("api/[controller]")]
 
     public class ParticipationController : ControllerBase
     {

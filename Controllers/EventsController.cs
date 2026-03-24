@@ -10,11 +10,10 @@ using System.Threading.Tasks;
 
 namespace Hackaton.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
-[ApiController]
-[Route("events")]
-public class EventsController : ControllerBase
-{
+    public class EventsController : ControllerBase
+    {
         private readonly ActivityPlatformDbContext _context;
 
         public EventsController(ActivityPlatformDbContext context)
@@ -99,7 +98,7 @@ public class EventsController : ControllerBase
             _context.EventTables.Add(newEvent);
             await _context.SaveChangesAsync(); // получаем IdEvent
 
-            // 5. Добавление призов (через Reward и EventReward)
+            // 5. Добавление призов (через Reward и
             if (dto.PrizeNames != null && dto.PrizeNames.Any())
             {
                 foreach (var prizeName in dto.PrizeNames)
@@ -127,10 +126,6 @@ public class EventsController : ControllerBase
                 await _context.SaveChangesAsync();
             }
 
-            // 6. Увеличиваем счётчик мероприятий организатора (если нужно)
-            // В UserTable нет поля для количества, но можно добавить, либо просто оставить без изменений
-            // Если хотите, добавьте поле OrganizedEventsCount в UserTable и инкрементируйте
-            // organizer.OrganizedEventsCount++; 
 
             return CreatedAtAction(nameof(GetEvents), new { id = newEvent.IdEvent }, newEvent);
         }
@@ -166,3 +161,5 @@ public class EventsController : ControllerBase
         }
     }
 }
+
+

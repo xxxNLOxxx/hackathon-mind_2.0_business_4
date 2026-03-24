@@ -12,11 +12,11 @@ function LoginPage({ onLogin }) {
     e.preventDefault();
     setLoading(true);
     setError("");
-const response = await api.post("/auth/login", { email, password });
+const response = await api.post("/api/auth/login", { email, password });
 const user = response.data;
 console.log("USER DATA:", user); 
     try {
-      const response = await api.post("/auth/login", { email, password });
+      const response = await api.post("/api/auth/login", { email, password });
       const user = response.data;
       
       localStorage.setItem("user", JSON.stringify(user));
