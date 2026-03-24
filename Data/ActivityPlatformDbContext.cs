@@ -21,7 +21,6 @@ public partial class ActivityPlatformDbContext : DbContext
     public DbSet<UserTable> Users { get; set; }
     public DbSet<Event> Events { get; set; }
     public DbSet<Prize> Prizes { get; set; }
-    public DbSet<Participation> Participations { get; set; }
 
     
     #endregion 

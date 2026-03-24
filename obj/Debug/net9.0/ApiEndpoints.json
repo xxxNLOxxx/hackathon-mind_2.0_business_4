@@ -1,7 +1,5 @@
 [
   {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "ContainingType": "AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -172,8 +170,78 @@
     ]
   },
   {
-=======
->>>>>>> Добавлен RatingController.cs
+    "ContainingType": "Hackaton.Controllers.EventsController",
+    "Method": "GetEvents",
+    "RelativePath": "events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Hackaton.Models.DTO.EventDto, Hackaton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Hackaton.Controllers.EventsController",
+    "Method": "CreateEvent",
+    "RelativePath": "events",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Hackaton.Models.DTO.EventCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Hackaton.Models.EventTable",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Hackaton.Controllers.EventsController",
+    "Method": "GetEventsByOrganizer",
+    "RelativePath": "events/organizer/{organizerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Hackaton.Models.DTO.EventDto, Hackaton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Hackaton.Controllers.ParticipationController",
     "Method": "Confirm",
     "RelativePath": "participation/confirm/{id}",
@@ -222,11 +290,52 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
-=======
->>>>>>> Создан ParticipationController.cs
-=======
->>>>>>> Добавлен RatingController.cs
+    "ContainingType": "Hackaton.Controllers.RatingController",
+    "Method": "GetTop100",
+    "RelativePath": "rating/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Hackaton.Models.UserRating, Hackaton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Hackaton.Controllers.RatingController",
+    "Method": "GetUserRating",
+    "RelativePath": "rating/user/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Hackaton.Models.UserRating",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "HackathonApp.Controllers.TestController",
     "Method": "Get",
     "RelativePath": "test",

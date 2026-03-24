@@ -6,7 +6,7 @@ using Swashbuckle.AspNetCore.SwaggerUI;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ActivityPlatformDbContext>(options =>
-    options.UseNpgsql("Host=localhost;Port=5432;Database=hackaton;Username=postgres;Password=minion"));
+    options.UseNpgsql("Host=31.134.131.169;Port=5432;Database=hackathon;Username=postgres;Password=1337"));
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {

@@ -456,7 +456,6 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.0"
         }
       },
-<<<<<<< HEAD
       "Microsoft.Extensions.ApiDescription.Server/9.0.0": {
         "type": "package",
         "build": {
@@ -468,8 +467,6 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-=======
->>>>>>> Создан ParticipationController.cs
       "Microsoft.Extensions.Caching.Abstractions/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -658,7 +655,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.OpenApi/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -675,8 +671,6 @@
           }
         }
       },
-=======
->>>>>>> Создан ParticipationController.cs
       "Mono.TextTemplating/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -726,7 +720,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Swashbuckle.AspNetCore/10.1.5": {
         "type": "package",
         "dependencies": {
@@ -793,8 +786,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-=======
->>>>>>> Создан ParticipationController.cs
       "System.CodeDom/6.0.0": {
         "type": "package",
         "compile": {
@@ -991,11 +982,7 @@
       "System.Text.Json/9.0.0": {
         "type": "package",
         "compile": {
-<<<<<<< HEAD
           "lib/net9.0/System.Text.Json.dll": {
-=======
-          "lib/net9.0/_._": {
->>>>>>> Создан ParticipationController.cs
             "related": ".xml"
           }
         },
@@ -2128,7 +2115,6 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.Extensions.ApiDescription.Server/9.0.0": {
       "sha512": "1Kzzf7pRey40VaUkHN9/uWxrKVkLu2AQjt+GVeeKLLpiEHAJ1xZRsLSh4ZZYEnyS7Kt2OBOPmsXNdU+wbcOl5w==",
       "type": "package",
@@ -2386,8 +2372,6 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
-=======
->>>>>>> Создан ParticipationController.cs
     "Microsoft.Extensions.Caching.Abstractions/9.0.0": {
       "sha512": "FPWZAa9c0H4dvOj351iR1jkUIs4u9ykL4Bm592yhjDyO5lCoWd+TMAHx2EMbarzUvCvgjWjJIoC6//Q9kH6YhA==",
       "type": "package",
@@ -2734,7 +2718,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.OpenApi/2.4.1": {
       "sha512": "u7QhXCISMQuab3flasb1hoaiERmUqyWsW7tmQODyILoQ7mJV5IRGM+2KKZYo0QUfC13evEOcHAb6TPWgqEQtrw==",
       "type": "package",
@@ -2753,8 +2736,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-=======
->>>>>>> Создан ParticipationController.cs
     "Mono.TextTemplating/3.0.0": {
       "sha512": "YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "type": "package",
@@ -2804,7 +2785,6 @@
         "postgresql.png"
       ]
     },
-<<<<<<< HEAD
     "Swashbuckle.AspNetCore/10.1.5": {
       "sha512": "/eNk9z/8quXhDX14o3XLbwAX/84uIWSbiUD7cI/UrQnoBMOiyAtzKxNEJUtf/TyxjFpcXxE9FAfLvtbNpxHBSg==",
       "type": "package",
@@ -2882,8 +2862,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-=======
->>>>>>> Создан ParticipationController.cs
     "System.CodeDom/6.0.0": {
       "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
       "type": "package",
@@ -3276,56 +3254,28 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
-<<<<<<< HEAD
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.1",
       "Swashbuckle.AspNetCore >= 10.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Анастасия\\.nuget\\packages\\": {},
-=======
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.1"
-    ]
-  },
-  "packageFolders": {
-    "C:\\Users\\Максим\\.nuget\\packages\\": {},
->>>>>>> Создан ParticipationController.cs
+    "C:\\Users\\dusha\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
+      "projectUniqueName": "C:\\Users\\dusha\\source\\repos\\hackathon-mind_2.0_business_fin\\Hackaton.csproj",
       "projectName": "Hackaton",
-      "projectPath": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
-      "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
-      "outputPath": "D:\\hackathon-mind_2.0_business_4\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj",
-=======
-      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
->>>>>>> Исправлено подключение к БД
-      "projectName": "Hackaton",
-      "projectPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
-      "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-<<<<<<< HEAD
-      "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\obj\\",
->>>>>>> Создан ParticipationController.cs
-=======
-      "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\obj\\",
->>>>>>> Исправлено подключение к БД
+      "projectPath": "C:\\Users\\dusha\\source\\repos\\hackathon-mind_2.0_business_fin\\Hackaton.csproj",
+      "packagesPath": "C:\\Users\\dusha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dusha\\source\\repos\\hackathon-mind_2.0_business_fin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Создан ParticipationController.cs
+        "C:\\Users\\dusha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3334,12 +3284,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2": {}
-=======
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
->>>>>>> Создан ParticipationController.cs
       },
       "frameworks": {
         "net9.0": {
@@ -3355,15 +3301,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-<<<<<<< HEAD
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
-=======
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
->>>>>>> Создан ParticipationController.cs
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -3378,13 +3318,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[9.0.1, )"
-<<<<<<< HEAD
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[10.1.5, )"
-=======
->>>>>>> Создан ParticipationController.cs
           }
         },
         "imports": [
@@ -3406,11 +3343,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
->>>>>>> Создан ParticipationController.cs
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
