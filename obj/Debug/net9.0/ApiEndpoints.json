@@ -1,5 +1,7 @@
 [
   {
+<<<<<<< HEAD
+<<<<<<< HEAD
     "ContainingType": "AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -170,6 +172,8 @@
     ]
   },
   {
+=======
+>>>>>>> Добавлен RatingController.cs
     "ContainingType": "Hackaton.Controllers.ParticipationController",
     "Method": "Confirm",
     "RelativePath": "participation/confirm/{id}",
@@ -218,6 +222,11 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+=======
+>>>>>>> Создан ParticipationController.cs
+=======
+>>>>>>> Добавлен RatingController.cs
     "ContainingType": "HackathonApp.Controllers.TestController",
     "Method": "Get",
     "RelativePath": "test",

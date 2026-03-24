@@ -34,6 +34,8 @@ public partial class ActivityPlatformDbContext : DbContext
 
     public virtual DbSet<OrganizerReview> OrganizerReviews { get; set; }
 
+    public virtual DbSet<Participation> Participations { get; set; }
+
     public virtual DbSet<PointsHistory> PointsHistories { get; set; }
 
     public virtual DbSet<Reward> Rewards { get; set; }

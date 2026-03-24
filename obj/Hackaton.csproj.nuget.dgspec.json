@@ -1,6 +1,8 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+<<<<<<< HEAD
     "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj": {}
   },
   "projects": {
@@ -12,12 +14,36 @@
         "projectPath": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
         "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
         "outputPath": "D:\\hackathon-mind_2.0_business_4\\obj\\",
+=======
+    "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\Hackaton.csproj": {}
+=======
+    "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj": {}
+>>>>>>> Исправлено подключение к БД
+  },
+  "projects": {
+    "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
+        "projectName": "Hackaton",
+        "projectPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\Hackaton.csproj",
+        "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
+<<<<<<< HEAD
+        "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-nastya\\obj\\",
+>>>>>>> Создан ParticipationController.cs
+=======
+        "outputPath": "C:\\Users\\Максим\\Desktop\\ActivityPlatform\\hackathon-mind_2.0_business_4-maxim\\obj\\",
+>>>>>>> Исправлено подключение к БД
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Создан ParticipationController.cs
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +52,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "https://api.nuget.org/v3/index.json": {},
           "https://www.nuget.org/api/v2": {}
+=======
+          "https://api.nuget.org/v3/index.json": {}
+>>>>>>> Создан ParticipationController.cs
         },
         "frameworks": {
           "net9.0": {
@@ -43,9 +73,15 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
+<<<<<<< HEAD
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
+=======
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+>>>>>>> Создан ParticipationController.cs
       },
       "frameworks": {
         "net9.0": {
@@ -60,10 +96,13 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.1, )"
+<<<<<<< HEAD
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[10.1.5, )"
+=======
+>>>>>>> Создан ParticipationController.cs
             }
           },
           "imports": [
@@ -85,7 +124,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Создан ParticipationController.cs
         }
       }
     }

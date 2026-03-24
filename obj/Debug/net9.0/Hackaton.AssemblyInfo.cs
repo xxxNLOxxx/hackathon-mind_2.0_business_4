@@ -14,7 +14,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hackaton")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04848c6e2542f970b01bfdd0131f943e5e76ed9e")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77bb32bbb8cc23a8a21088f7a605193288ebe4fd")]
+>>>>>>> Исправлено подключение к БД
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266b84985a3f050e3273de4d12486591dcf7997b")]
+>>>>>>> Добавлен RatingController.cs
 [assembly: System.Reflection.AssemblyProductAttribute("Hackaton")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hackaton")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
