@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Hackaton\\Hackaton.csproj": {}
+    "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Hackaton\\Hackaton.csproj": {
+    "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Hackaton\\Hackaton.csproj",
+        "projectUniqueName": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
         "projectName": "Hackaton",
-        "projectPath": "D:\\C#\\Hackaton\\Hackaton.csproj",
+        "projectPath": "D:\\hackathon-mind_2.0_business_4\\Hackaton.csproj",
         "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Hackaton\\obj\\",
+        "outputPath": "D:\\hackathon-mind_2.0_business_4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,6 +60,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.5, )"
             }
           },
           "imports": [
