@@ -1,0 +1,63 @@
+/* src/components/EventCard.css */
+.event-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: 1px solid #e2e8f0;
+}
+
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e1;
+}
+
+.event-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.event-desc {
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.event-meta p {
+  font-size: 0.75rem;
+  color: #475569;
+  background: #f8fafc;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.event-prizes {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.event-prizes span {
+  background: #fef3c7;
+  color: #b45309;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: inline-block;
+}
