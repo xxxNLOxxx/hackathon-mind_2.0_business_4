@@ -133,5 +133,35 @@ namespace Hackaton.Controllers
 
             return CreatedAtAction(nameof(GetEvents), new { id = newEvent.IdEvent }, newEvent);
         }
+        [HttpGet("organizer/{organizerId}")]
+        public async Task<ActionResult<IEnumerable<EventDto>>> GetEventsByOrganizer(int organizerId)
+        {
+            var events = await _context.EventTables
+                .Include(e => e.IdOrganizerNavigation)
+                .Include(e => e.EventRewards)
+                    .ThenInclude(er => er.IdRewardNavigation)
+                .Include(e => e.Participations)
+                .Where(e => e.IdOrganizer == organizerId)
+                .Select(e => new EventDto
+                {
+                    Id = e.IdEvent,
+                    Title = e.Title,
+                    Description = e.Description,
+                    Date = e.EventDate,
+                    BasePoints = e.BasePoints ?? 0,
+                    Difficulty = e.ComplexityCoeff ?? 1.0,
+                    Category = e.IdCategoryNavigation != null ? e.IdCategoryNavigation.CategoryName : null,
+                    OrganizerName = e.IdOrganizerNavigation.FullName,
+                    Prizes = e.EventRewards
+                        .Where(er => er.IdRewardNavigation != null)
+                        .Select(er => er.IdRewardNavigation.RewardName)
+                        .ToList(),
+                    ParticipantsCount = e.Participations.Count(p => p.IdStatusParticipationNavigation != null &&
+                                                                   p.IdStatusParticipationNavigation.Status == "Confirmed")
+                })
+                .ToListAsync();
+
+            return Ok(events);
+        }
     }
 }

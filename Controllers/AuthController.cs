@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 [ApiController]
-[Route("auth")]
+[Route("api/[controller]")]
 public class AuthController : ControllerBase
 {
     private readonly ActivityPlatformDbContext _context;
@@ -17,6 +17,7 @@ public class AuthController : ControllerBase
     }
 
     public record RegisterUserRequest(string? Name, string? Role);
+    public record LoginRequest(string Email, string Password);
     public record UserResponse(int Id, string Name, string Role);
 
     [HttpPost("register")]
@@ -46,6 +47,28 @@ public class AuthController : ControllerBase
         await _context.SaveChangesAsync();
 
         return new UserResponse(user.IdUser, user.FullName!, role.RoleName!);
+    }
+
+    [HttpPost("login")]
+    public async Task<ActionResult<UserResponse>> Login([FromBody] LoginRequest request)
+    {
+        // Ищем пользователя по email (используем email как логин)
+        var user = await _context.UserTables
+            .Include(u => u.IdRoleNavigation)
+            .FirstOrDefaultAsync(u => u.Email == request.Email);
+
+        if (user == null)
+        {
+            return Unauthorized(new { message = "Пользователь не найден" });
+        }
+
+        // Временно: сравниваем пароль как есть (потом добавить хэширование)
+        if (user.Pwd != request.Password)
+        {
+            return Unauthorized(new { message = "Неверный пароль" });
+        }
+
+        return new UserResponse(user.IdUser, user.FullName!, user.IdRoleNavigation?.RoleName ?? "Participant");
     }
 
     private static string? NormalizeRole(string? role)

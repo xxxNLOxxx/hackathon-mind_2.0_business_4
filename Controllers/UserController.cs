@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 [ApiController]
-[Route("users")]
+[Route("api/[controller]")]
 public class UserController : ControllerBase
 {
     private readonly ActivityPlatformDbContext _context;
@@ -22,7 +22,7 @@ public class UserController : ControllerBase
     public async Task<ActionResult<List<UserProfileResponse>>> GetAllParticipants()
     {
         var participantRoleId = await _context.Roles
-            .Where(r => r.RoleName == "Participant")
+            .Where(u => u.IdRole == 3)
             .Select(r => r.IdRole)
             .FirstOrDefaultAsync();
 
