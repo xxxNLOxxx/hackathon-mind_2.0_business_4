@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"GlobalPropertiesHash":"Z6J6kO5Q11UbwE3rNaeubP0Z2wQ+vHFd5YtmJM9sGCs=","FingerprintPatternsHash":"gq3WsqcKBUGTSNle7RKKyXRIwh7M8ccEqOqYvIzoM04=","PropertyOverridesHash":"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=","InputHashes":["bEUZ7JCxLBzGLvmMChWYYTKoW506uCD/BB8ZR9kZxfI=","W08RLJ\u002BLMDHbj7XeByA\u002BVnKehhCygjyicFF8aB6SH5c=","pB06x8Wkl9mfDuds1sHMSOY/MeypA0QGoWTun3W3UCw="],"CachedAssets":{},"CachedCopyCandidates":{}}
 =======
 {"GlobalPropertiesHash":"RF9EH5RcgOVa9Ou6wdaUZ5xHUIk+lldZrNsPjnyuAvc=","FingerprintPatternsHash":"gq3WsqcKBUGTSNle7RKKyXRIwh7M8ccEqOqYvIzoM04=","PropertyOverridesHash":"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=","InputHashes":["6MGYAyF0zvmQxPSsWMi3y6x1vcsVD4VfcWq19xOrxZc=","G5wJWMYWiPJ2XK7mvqMcWLWh66NsGTO5JdmE9ZCtxMM="],"CachedAssets":{},"CachedCopyCandidates":{}}
@@ -7,3 +8,6 @@
 =======
 {"GlobalPropertiesHash":"PAFPISSKTTuQjdH2QYmZAl5anmmFvXp/q3R40jUZqog=","FingerprintPatternsHash":"gq3WsqcKBUGTSNle7RKKyXRIwh7M8ccEqOqYvIzoM04=","PropertyOverridesHash":"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=","InputHashes":["1gvBRbXdDH\u002BwLwtFUwF0j11F7SrEySR6kLEt/dg3s0U=","WS8jgOoGUM/VDGJsYdG\u002BnCvXanqOnzc0Cq9Ca5ynDx0="],"CachedAssets":{},"CachedCopyCandidates":{}}
 >>>>>>> Исправлено подключение к БД
+=======
+{"GlobalPropertiesHash":"PAFPISSKTTuQjdH2QYmZAl5anmmFvXp/q3R40jUZqog=","FingerprintPatternsHash":"gq3WsqcKBUGTSNle7RKKyXRIwh7M8ccEqOqYvIzoM04=","PropertyOverridesHash":"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=","InputHashes":["1gvBRbXdDH\u002BwLwtFUwF0j11F7SrEySR6kLEt/dg3s0U=","KKZC53Ke6mpF3k5RKbnPlpxrTONTNnnfcN\u002B\u002BJihXjMA="],"CachedAssets":{},"CachedCopyCandidates":{}}
+>>>>>>> Добавлен RatingController.cs
